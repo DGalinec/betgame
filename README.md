@@ -1,4 +1,4 @@
-This project is a bet generator with all the logic being stored into smart contracts written in Solidity programming language and running on the Ethereum testnet (Rinkeby network). Role of the master contract is to keep track of all bets that that will be created by the application users. Each bet takes the form of a new contract sent and executed on the blockchain. Players are free to participate in betting by giving their prognostics. The amount of a bet is 0.01 ether. Only the creator of the contract can end the bets and ask the contract to reward the winner(s).
+This project is a bet generator with all the logic being stored into smart contracts written in Solidity programming language and running on the Ethereum testnet (Rinkeby network). Role of the master contract is to keep track of all bets that that will be created by the application users. Each bet takes the form of a new contract sent and executed on the blockchain. Players are free to participate in betting by giving their prognostics. The amount to be paid for participating to a bet is 0.01 ether. Only the creator of the contract (bet) can close a bet and ask the contract to reward the winner(s).
 
 ## Betgame contracts
 
@@ -6,7 +6,7 @@ This project is a bet generator with all the logic being stored into smart contr
 
 - The contracts have been pre-compiled and pre-tested on the [Remix](http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.24+commit.e67f0147.js) Solidity IDE.
 
-- The contract is compiled using the [solc](https://github.com/ethereum/solc-js) Solidity compiler. The script is named [compile.js](https://github.com/DGalinec/betgame/blob/master/ethereum/compile.js). It generates in the [build](https://github.com/DGalinec/betgame/tree/master/ethereum/build) directory two separate JSON files containing the Application Binary Interface of each contract.
+- The contracts have been compiled using the [solc](https://github.com/ethereum/solc-js) Solidity compiler. The script is named [compile.js](https://github.com/DGalinec/betgame/blob/master/ethereum/compile.js). It generates in the [build](https://github.com/DGalinec/betgame/tree/master/ethereum/build) directory two separate JSON files containing the Application Binary Interface of each contract.
 
 - The [Mocha](https://mochajs.org/) JavaScript test framework paired with the [Ganache](https://github.com/trufflesuite/ganache) personnal blockchain for Ethereum development were used to test the behaviour of the different contract functions on the blockchain. The JavaScript file containing the different tests is named [Betgame.test.js](https://github.com/DGalinec/betgame/blob/master/test/Betgame.test.js).
 
@@ -41,7 +41,7 @@ components/
 
 - Contract requires [MetaMask](https://metamask.io/) plugin to be installed in your Chrome or FireFox browser and be settled on the Rinkeby network in order to pay for transactions.
 
-- To run the user interface type `$ npm run dev`. Application will start on localhost: 3000 in your browser. 
+- To run the user interface type `$ npm run dev`. Application will start on `localhost: 3000` in your browser. 
 
 ## Folder structure
 
