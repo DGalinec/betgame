@@ -1,0 +1,10 @@
+#Application files
+ADDRESS
+/ethereum/deploy.js
+/ethereum/web3.js
+/node_modules
+/.next
+
+
+#OS or Editor folders
+.DS_Store
