@@ -14,7 +14,7 @@ This project is a bet generator with all the logic being stored into smart contr
 
 ## User interface
 
-- This project is was bootstrapped with [Next.JS](https://github.com/zeit/next.js/), a framework for server-rendered React applications.
+- This project is was bootstrapped with [Next.JS](https://github.com/zeit/next.js/), a framework for server-rendered [React.JS](https://reactjs.org/) applications.
 
 - JavaScript source code of the user interface with calls to the Ethreum blockchain is splitted in a number of functionnal  and class-based components. The main **BetgameIndex** component is stored in the [index.js](https://github.com/DGalinec/betgame/blob/master/pages/index.js) file.
 
