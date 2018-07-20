@@ -6,11 +6,11 @@ This project is a bet generator with all the logic being stored into smart contr
 
 - The contracts have been pre-compiled and pre-tested on the [Remix](http://remix.ethereum.org/#optimize=false&version=soljson-v0.4.24+commit.e67f0147.js) Solidity IDE.
 
-- The contract is compiled using the [solc](https://github.com/ethereum/solc-js) Solidity compiler. The script is named [compile.js](https://github.com/DGalinec/betgame/blob/master/ethereum/compile.js). It generates in the [build](https://github.com/DGalinec/betgame/tree/master/ethereum/build) directory two separate JSON files containing the Application Binary Interrface of each contract.
+- The contract is compiled using the [solc](https://github.com/ethereum/solc-js) Solidity compiler. The script is named [compile.js](https://github.com/DGalinec/betgame/blob/master/ethereum/compile.js). It generates in the [build](https://github.com/DGalinec/betgame/tree/master/ethereum/build) directory two separate JSON files containing the Application Binary Interface of each contract.
 
 - The [Mocha](https://mochajs.org/) JavaScript test framework paired with the [Ganache](https://github.com/trufflesuite/ganache) personnal blockchain for Ethereum development were used to test the behaviour of the different contract functions on the blockchain. The JavaScript file containing the different tests is named [Betgame.test.js](https://github.com/DGalinec/betgame/blob/master/test/Betgame.test.js).
 
-- An instance of the Master contract or contract generator has been deployed on the [Rinkeby](https://www.rinkeby.io/#stats) network (Ethereum testnet at address [0x20C1cC8064838291c4D936b17Ac7937F515A9EFE](https://rinkeby.etherscan.io/address/0x20C1cC8064838291c4D936b17Ac7937F515A9EFE) using [truffle hdwallet provider](https://github.com/trufflesuite/truffle-hdwallet-provider).
+- An instance of the Master contract or contract generator has been deployed on the [Rinkeby](https://www.rinkeby.io/#stats) network (Ethereum testnet) at address [0x20C1cC8064838291c4D936b17Ac7937F515A9EFE](https://rinkeby.etherscan.io/address/0x20C1cC8064838291c4D936b17Ac7937F515A9EFE) using [truffle hdwallet provider](https://github.com/trufflesuite/truffle-hdwallet-provider).
 
 ## User interface
 
